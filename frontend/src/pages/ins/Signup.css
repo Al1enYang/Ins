@@ -1,0 +1,199 @@
+.Signup-container{
+    display: flex;
+    background-color: rgb(250, 249, 249);
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    /* background-color: #A00; */
+}
+
+.Signup-image{
+    margin: auto;
+    margin-right: 20px;
+    height: 600px;
+}
+
+.Signup-page{
+    margin: auto;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+.Signup-signuppart{
+    margin: auto;
+    width: 414px;
+    /* height: 538px; */
+    border: rgb(230, 230, 230) 1px solid;
+    background-color: white;
+}
+
+.Signup-insimage{
+    margin: auto;
+    margin-left: 7%;
+    width: 350px;
+}
+
+.Signup-text{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font: inherit;
+    font-weight: 500;
+    font-size: 14pt;
+    color: gray;
+}
+
+.Signup-button{
+    width: 270px;
+    height: 30px;
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+
+    background-color: blue;
+    border: blue 1px solid;
+    border-radius: 3px;
+
+    color: white;
+    font: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Signup-facebookIcon{
+    margin: auto;
+    margin-left:40px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.Signup-userInput{
+    width: 270px;
+    height: 38px;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6px;
+
+    background-color: rgb(248, 246, 246);
+    border: darkgray 1px solid;
+    border-radius: 3px;
+}
+
+.Signup-or{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 14%;
+
+    color: darkgray;
+    font-weight: 500;
+}
+
+.Signup-line{
+    width: 110px;
+    height: 1px;
+    background-color: darkgray;
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Signup-button-text{
+    margin: auto;
+}
+
+.Signup-policy{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.Signup-policy-line{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Signup-policy-text{
+    font: inherit;
+    font-size: 10pt;
+    color: gray;
+}
+
+.Signup-policy-highlight{
+    margin-left: 4px;
+    margin-right: 4px;
+    font: inherit;
+    font-weight: 500;
+    font-size: 10pt;
+    color: gray;
+    cursor: pointer;
+}
+
+.Signup-signupPage{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    width: 414px;
+    height: 60px;
+    border: rgb(230, 230, 230) 1px solid;
+    background-color: white;
+}
+
+.Signup-signup-text{
+    margin: auto;
+    margin-right: 2px;
+    font-size: 14px;
+}
+
+.Signup-login{
+    margin: auto;
+    margin-left: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    color:deepskyblue;
+    cursor: pointer;
+}
+
+.Signup-login-nondisplay{
+    display: none;
+}
+
+.Signup-appPage{
+    margin: auto;
+    font: inherit;
+    margin-top: 20px;
+}
+
+.Signup-download{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.Signup-img{
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}

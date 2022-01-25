@@ -1,0 +1,907 @@
+.Main-container{
+    width: 100%;
+    /* height: 500%; */
+    background-color: rgb(249, 249, 249);
+}
+
+.Main-header{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: white;
+    border: rgb(230, 230, 230) 1px solid;}
+
+.Main-insimage{
+    width: 230px;
+    height: 66px;
+
+    margin: auto;
+    margin-left: 17%;
+
+    cursor: pointer;
+}
+
+.Main-inputBorder{
+    width: 268px;
+    height: 36px;
+    
+    margin: auto;
+    margin-left: 11%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    
+    border: rgb(230, 230, 230) 1px solid;
+    background-color: rgb(249, 249, 249);
+    
+}
+
+.Main-searchInput{
+    width: 245px;
+    height: 25px;
+
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 3%;
+
+    border: rgb(230, 230, 230) 1px solid;
+    background-color: rgb(250, 249, 249);
+    border: none;
+    outline: medium;
+}
+
+.Main-recent{
+    width: 375px;
+    height: 450px;
+
+    margin: auto;
+    margin-left: -3.5%;
+    margin-top: 3.3%;
+    position: absolute;
+
+    background-color: white;
+    border: rgb(230, 230, 230) 1px solid;
+    border-radius: 2%;
+}
+
+.Main-rencentclose{
+    width: 375px;
+    height: 450px;
+
+    margin: auto;
+    margin-left: -3.5%;
+    margin-top: 3.3%;
+    position: absolute;
+
+    background-color: white;
+    border: rgb(230, 230, 230) 1px solid;
+    border-radius: 2%;
+    display: none;
+}
+
+.Main-recent-content{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Main-recent-text{
+    font: inherit;
+    font-weight: 500;
+    font-size: 16px;
+
+    margin: auto;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+.Main-recent-clear{
+    font: inherit;
+    color:deepskyblue;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+
+    margin: auto;
+    margin-top: 4%;
+    margin-right: 4%;
+}
+
+.Main-clearIcon{
+    margin-top: 3%;
+}
+
+.Main-functions{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-right: 25%;
+}
+
+.Main-icon{
+    width: 24px;
+    height: 24px;
+
+    margin: auto;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+    cursor: pointer;
+}
+
+.Main-avatarPart{
+
+}
+
+.Main-avatar1{
+    width: 24px;
+    height: 24px;
+
+    margin: auto;
+    margin-left: 8%;
+    margin-right: 8%;
+
+    cursor: pointer;
+    border: black 1px solid;
+    border-radius: 50%;
+}
+
+.Main-avatar2{
+    width: 24px;
+    height: 24px;
+
+    margin: auto;
+    margin-left: 8%;
+    margin-right: 8%;
+    cursor: pointer;
+}
+
+.Main-userOptions{
+    width: 230px;
+    height: 194px;
+
+    margin: auto;
+    margin-top: 1.2%;
+    margin-left: -12%;
+
+    background-color: white;
+    border: rgb(230, 230, 230) 1px solid;
+    border-radius: 2%;
+    position: absolute;
+}
+
+.Main-optionclose{
+    width: 230px;
+    height: 194px;
+    margin-top: 3%;
+    background-color: white;
+    border: red 1px solid;
+    position: absolute;
+    display: none;
+}
+
+.Main-option-profile{
+    width: 230px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.Main-option-colour1{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.Main-option-colour2{
+    background-color: white;
+    cursor: pointer;
+}
+
+.Main-option-ref{
+    display: none;
+}
+
+.Main-option-icon{
+    margin: auto;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.Main-option-text{
+    margin: auto;
+    margin-left: 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.Main-option-line{
+    width: 400px;
+    /* width: 230px; */
+    height: 2px;
+    /* background-color: #000; */
+    background-color: rgb(230, 230, 230);
+}
+
+.Main-mainPage{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Main-leftPage{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Main-story{
+    width: 614px;
+    height: 118px;
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 0px;
+
+    background-color: white;
+    border: rgb(230, 230, 230) 1px solid;
+}
+
+.Main-story-user{
+    width: 80px;
+    height: 122px;
+
+    margin: auto;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.Main-story-img{
+    width: 60px;
+    height: 60px;
+
+    margin: auto;
+    margin-top: 15px;
+
+    border: violet 2px solid;
+    border-radius: 50%;
+}
+
+.Main-story-text{
+    font: inherit;
+    font-size: 14px;
+
+    margin: auto;
+    margin-left: 17px;
+}
+
+.Main-moment{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-moment-page{
+    width: 614px;
+    height: 1051px;
+
+    background-color: white;
+    border: rgb(230, 230, 230) 1px solid;
+
+    margin: auto;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-moment-header{
+    width: 614px;
+    height: 60px;
+
+    margin: auto;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Main-moment-icon{
+    width: 32px;
+    height: 32px;
+
+    margin: auto;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.Main-moment-userName{
+    font: inherit;
+    font-weight: 500;
+    font-size: 15px;
+
+    margin: auto;
+    margin-left: -230px;
+    cursor: pointer;
+}
+
+.Main-moment-ellipsis{
+    margin: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Main-moment-mainImg{
+    width: 614px;
+    height: 767px;
+
+    margin: auto;
+    margin-top: -397px;
+}
+
+.Main-moment-interaction{
+    /* margin: auto; */
+    margin-top: -370px;
+    margin-left: 13px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.Main-moment-saveInteraction{
+    margin: auto;
+    margin-top: -370px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.Main-moment-smallAvatar{
+    width: 20px;
+    height: 20px;
+
+    margin-top: -330px;
+    margin-left: 13px;
+}
+
+.Main-moment-like{
+    font: inherit;
+    font-weight: 500;
+    font-size: 15px;
+
+    margin-top: -330px;
+    margin-left: 3px;
+}
+
+.Main-moment-postUser{
+    font: inherit;
+    font-weight: 500;
+    font-size: 15px;
+
+    margin-top: -300px;
+    margin-left: 13px;
+}
+
+.Main-moment-text{
+    margin-top: -302px;
+    margin-left: 3px;
+}
+
+.Main-moment-postTime{
+    color: gray;
+    font-size: 13px;
+
+    margin-top: -270px;
+    margin-left: 13px;
+}
+
+.Main-moment-addComment{
+    width: 614px;
+    height: 53px;
+    border-top: rgb(230, 230, 230) 1px solid;
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.Main-moment-smile{
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.Main-moment-inputComment{
+    width: 514px;
+    height: 22px;
+
+    border: tomato 1px solid;
+    border: none;
+    outline: medium;
+    margin-top: 13px;
+    margin-left: 8px;
+
+    font-size: 15px;
+}
+
+.Main-rightPage{
+    width: 293px;
+    height: 489px;
+
+    margin: auto;
+    margin-left: -300px;
+    margin-top: -25px;
+    flex-direction: column;
+    /* border: tomato 1px solid; */
+}
+
+.Main-userInformation{
+    width: 293px;
+    height: 125px;
+    /* border: springgreen 1px solid; */
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.Main-userAvatar-nondisplay{
+    display: none;
+}
+
+.Main-userAvatar{
+    width: 70px;
+    height: 70px;
+
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Main-userInformation-text{
+    font: inherit;
+    font-weight: 500;
+    font-size: 15px;
+
+    margin: auto;
+    margin-top: 60px;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+.Main-userInformation-switch{
+    font: inherit;
+    color:deepskyblue;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+
+    margin: auto;
+    margin-top: 65px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.Main-suggestion{
+    width: 293px;
+    height: 361px;
+    /* border: blue 1px solid; */
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-user1-container{
+    width: 293px;
+    height: 40px;
+    /* border: yellow 1px solid; */
+
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.Main-user1-noncontainer{
+    width: 293px;
+    height: 40px;
+    /* border: yellow 1px solid; */
+
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    display: none;
+}
+
+.Main-user2-container{
+    width: 293px;
+    height: 40px;
+    /* border: blueviolet 1px solid; */
+
+    display: flex;
+    margin: auto;
+    margin-top: 75px;
+    position: absolute;
+}
+
+.Main-user2-noncontainer{
+    width: 293px;
+    height: 40px;
+    /* border: blueviolet 1px solid; */
+
+    display: flex;
+    margin: auto;
+    margin-top: 75px;
+    display: none;
+}
+
+.Main-user3-container{
+    width: 293px;
+    height: 40px;
+    /* border: blue 1px solid; */
+
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+    position: absolute;
+}
+
+.Main-user3-noncontainer{
+    width: 293px;
+    height: 40px;
+    /* border: blue 1px solid; */
+
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+    display: none;
+}
+
+.Main-user4-container{
+    width: 293px;
+    height: 40px;
+    /* border: pink 1px solid; */
+
+    display: flex;
+    margin: auto;
+    margin-top: 165px;
+    position: absolute;
+}
+
+.Main-user4-noncontainer{
+    width: 293px;
+    height: 40px;
+    /* border: pink 1px solid; */
+
+    display: flex;
+    margin: auto;
+    margin-top: 165px;
+    display: none;
+}
+
+.Main-user5-container{
+    width: 293px;
+    height: 40px;
+    /* border: red 1px solid; */
+
+    display: flex;
+    margin: auto;
+    margin-top: 210px;
+    position: absolute;
+}
+
+.Main-user5-noncontainer{
+    width: 293px;
+    height: 40px;
+    /* border: red 1px solid; */
+
+    display: flex;
+    margin: auto;
+    margin-top: 210px;
+    display: none;
+}
+
+.Main-suggestion-moreProfile1{
+    width: 393px;
+    height: 361px;
+
+    position: absolute;
+    background-color: white;
+    border: rgb(230, 230, 230) 1px solid;
+    border-radius: 15px;
+
+    margin: auto;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.Main-suggestion-moreProfile2{
+    width: 393px;
+    height: 361px;
+
+    position: absolute;
+    background-color: white;
+    border: rgb(230, 230, 230) 1px solid;
+    border-radius: 15px;
+
+    margin: auto;
+    margin-top: 36px;
+    margin-left: 15px;
+}
+
+.Main-suggestion-moreProfile3{
+    width: 393px;
+    height: 361px;
+
+    position: absolute;
+    background-color: white;
+    border: rgb(230, 230, 230) 1px solid;
+    border-radius: 15px;
+
+    margin: auto;
+    margin-top: 37px;
+    margin-left: 15px;
+}
+
+.Main-suggestion-moreProfile4{
+    width: 393px;
+    height: 361px;
+
+    position: absolute;
+    background-color: white;
+    border: rgb(230, 230, 230) 1px solid;
+    border-radius: 15px;
+
+    margin: auto;
+    margin-top: -355px;
+    margin-left: 15px;
+}
+
+.Main-suggestion-moreProfile5{
+    width: 393px;
+    height: 361px;
+
+    position: absolute;
+    background-color: white;
+    border: rgb(230, 230, 230) 1px solid;
+    border-radius: 15px;
+
+    margin: auto;
+    margin-top: -355px;
+    margin-left: 15px;
+}
+
+.Main-oneRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.Main-suggestion-text{
+    font: inherit;
+    color:gray;
+    font-weight: 500;
+    font-size: 15px;
+
+    margin-left: 16px;
+}
+
+.Main-suggestion-seeall{
+    font: inherit;
+    color:black;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+
+    margin: auto;
+    margin-top: 1px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.Main-suggestion-userAvatar{
+    width: 35px;
+    height: 35px;
+
+    margin: auto;
+    margin-top: 12px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.Main-suggestion-user{
+    width: 180px;
+    height: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 11px;
+}
+
+.Main-suggestion-userName{
+    font: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+
+    margin: auto;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.Main-suggestion-userState{
+    font: inherit;
+    color: gray;
+    font-size: 12px;
+}
+
+.Main-userInformation-fllow{
+    font: inherit;
+    color:deepskyblue;
+    font-weight: 500;
+    font-size: 13px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.Main-profileDetails{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-profileDetails-img{
+    width: 70px;
+    height: 70px;
+
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.Main-profileDetails-userName{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-profileDetails-name{
+    font: inherit;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+
+    margin: auto;
+    margin-left: -90px;
+    margin-top: -67px;
+    cursor: pointer;
+}
+
+.Main-profileDetails-fullName{
+    font: inherit;
+    color: gray;
+    font-size: 15px;
+
+    margin: auto;
+    margin-left: -90px;
+    margin-top: -5px;
+}
+
+.Main-profileDetails-userState{
+    font: inherit;
+    color: gray;
+    font-size: 13px;
+
+    margin: auto;
+    margin-left: -90px;
+}
+
+.Main-profileDetails-summary{
+    width: 393px;
+    height: 90px;
+    border: rgb(230, 230, 230) 1px solid;
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: -1px;
+}
+
+.Main-profileDetails-data{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.Main-profileDetails-text{
+    color: gray;
+    font-size: 15px;
+}
+
+.Main-profile-img{
+    width: 131px;
+    height: 131px;
+}
+
+.Main-profileDetails-button{
+    width: 93%;
+
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    background-color: deepskyblue;
+    border: deepskyblue 1px solid;
+    border-radius: 2px;
+    color: white;
+    font: inherit;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Main-dialog{
+    width: 300px;
+    /* border: 1px solid blue; */
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    
+}
+
+.alert-dialog-redText{
+    width: 100%;
+    height: 50px;
+    
+    /* width: 80px;
+    margin:auto;
+    margin-left: 50%; */
+    color: red;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    /* border: 1px solid black; */
+}
+
+.alert-dialog-blackText{
+    width: 100%;
+    height: 50px;
+    
+    /* width: 80px;
+    margin:auto;
+    margin-left: 50%; */
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    /* border: 1px solid black; */
+}
+
+.alert-dialog-option-line{
+    width: 100%;
+    /* width: 230px; */
+    height: 1px;
+    /* background-color: #000; */
+    background-color: rgb(230, 230, 230);
+}
